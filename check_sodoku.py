@@ -7,6 +7,7 @@ def es_lista(lista:list) -> bool:
         if lista == []: return True
         lista[0] = lista[0]
         lista = [0]
+        return True
     except:
         return False
 
