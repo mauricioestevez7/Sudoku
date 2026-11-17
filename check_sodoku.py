@@ -1,7 +1,7 @@
 def es_cuadrada(matriz:list) -> bool:
     return len(matriz[0]) == len(matriz)
 
-def es_lista(lista:list) -> bool:
+def es_lista(lista:list=False) -> bool:
     
     try:
         if lista == []: return True
