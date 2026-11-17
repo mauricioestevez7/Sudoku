@@ -1,7 +1,7 @@
-def es_cuadrada(matriz:bool) -> bool:
+def es_cuadrada(matriz:list) -> bool:
     return len(matriz[0]) == len(matriz)
 
-def check_sodoku(matriz:bool) -> bool:
+def check_sodoku(matriz:list) -> bool:
     pass
 
 
